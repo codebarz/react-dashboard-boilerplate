@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 
+//Components
+import SideNav from '../../components/SideNav';
+import NavHeader from '../../components/NavHeader';
+import PageHead from '../../components/PageHead';
+
 function Dashboard() {
   const [showToggle, setShowToggle] = useState(false);
   const handleNavToggle = e => {
