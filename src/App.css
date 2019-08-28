@@ -1,4 +1,6 @@
-* {
+*,
+html,
+body {
   padding: 0;
   margin: 0;
 }
@@ -30,9 +32,11 @@
   height: 50px;
   background: #fff;
   margin-top: 50px;
-  padding: 10px;
   color: #434349;
   font-weight: 500;
+}
+.admin-main-title p {
+  padding: 10px;
 }
 .admin-side-nav-header {
   height: 50px;
@@ -58,6 +62,7 @@
 }
 .admin-side-nav-header i {
   cursor: pointer;
+  margin-right: 35px;
 }
 .admin-side-nav-menu {
   height: fit-content;
@@ -119,6 +124,7 @@
   }
   .admin-side-nav-header i {
     cursor: pointer;
+    margin-right: 0;
   }
   .hide {
     display: none;
