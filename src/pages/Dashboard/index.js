@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import SideNav from '../../components/SideNav';
 import NavHeader from '../../components/NavHeader';
 import PageHead from '../../components/PageHead';
+import AnalyticsSummary from '../../components/AnalyticsSummary';
 
 function Dashboard() {
   const [showToggle, setShowToggle] = useState(false);
@@ -36,12 +37,16 @@ function Dashboard() {
       menuItem.forEach(item => item.classList.remove('hide'));
     }, 100);
   };
+
   return (
     <div id="admin-dash-content">
       <SideNav onclick={handleNavToggle}></SideNav>
       <main id="admin-main-page">
         <NavHeader />
         <PageHead title="Dashboard"></PageHead>
+        <div className="admin-main-content">
+          <AnalyticsSummary></AnalyticsSummary>
+        </div>
       </main>
     </div>
   );

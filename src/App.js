@@ -1,4 +1,7 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+//Pages
 import Dashboard from './pages/Dashboard';
 
 import './App.css';
@@ -6,7 +9,9 @@ import './App.css';
 function App() {
   return (
     <>
-      <Dashboard></Dashboard>
+      <Router>
+        <Route exact path="/" component={Dashboard}></Route>
+      </Router>
     </>
   );
 }
