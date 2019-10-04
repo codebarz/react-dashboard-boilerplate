@@ -9,7 +9,9 @@ function SideNav(props) {
     <nav id="admin-side-nav">
       <div className="admin-side-nav-header">
         <NavLogo></NavLogo>
-        <i className="mdi mdi-menu-open" onClick={props.onclick} />
+        <i onClick={props.onclick}>
+          <img src="/assets/images/menu.svg" />
+        </i>
       </div>
       <div className="admin-side-nav-menu">
         <MenuItems></MenuItems>
