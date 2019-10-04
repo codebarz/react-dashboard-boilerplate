@@ -17,24 +17,27 @@ function Dashboard() {
     const mobileNav = document.querySelector('.admin-side-nav-menu');
     const navLogo = document.querySelector('.admin-nav-logo');
     const menuItem = document.querySelectorAll('.admin-nav-menu-item li span');
+    const menuHeadings = document.querySelectorAll('.admin-nav-menu-item h5');
     if (!showToggle) {
       sideNav.classList.add('admin-shrink-nav');
       mainContent.classList.add('admin-shrink-main');
-      sideNavIcon.classList.remove('mdi-menu-open');
-      sideNavIcon.classList.add('mdi-forwardburger');
+      // sideNavIcon.classList.remove('mdi-menu-open');
+      // sideNavIcon.classList.add('mdi-forwardburger');
       mobileNav.classList.add('admin-show-menu');
       navLogo.classList.add('hide');
       menuItem.forEach(item => item.classList.add('hide'));
+      menuHeadings.forEach(item => item.classList.add('hide'));
       return;
     }
     sideNav.classList.remove('admin-shrink-nav');
     mainContent.classList.remove('admin-shrink-main');
-    sideNavIcon.classList.add('mdi-menu-open');
-    sideNavIcon.classList.remove('mdi-forwardburger');
+    // sideNavIcon.classList.add('mdi-menu-open');
+    // sideNavIcon.classList.remove('mdi-forwardburger');
     mobileNav.classList.remove('admin-show-menu');
     setTimeout(() => {
       navLogo.classList.remove('hide');
       menuItem.forEach(item => item.classList.remove('hide'));
+      menuHeadings.forEach(item => item.classList.remove('hide'));
     }, 100);
   };
 
