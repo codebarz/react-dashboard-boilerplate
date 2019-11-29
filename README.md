@@ -1,1 +1,1 @@
-## A React Dashboard Boilerplate
+## MyRoot Admin Dashboard
