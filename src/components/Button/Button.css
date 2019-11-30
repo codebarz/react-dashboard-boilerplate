@@ -1,0 +1,10 @@
+.buttonComponentPrimary {
+  background: linear-gradient(to right, #0dc6b5, #28d892);
+  border: none;
+  padding: 10px 30px;
+  width: fit-content;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
