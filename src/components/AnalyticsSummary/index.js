@@ -40,6 +40,7 @@ function AnalyticsSummary() {
             <img
               className="summaryCardImg"
               src="/assets/images/users.svg"
+              alt="Users"
             ></img>
             <p className="adminSummaryTitle">Users</p>
           </Card>
@@ -47,6 +48,7 @@ function AnalyticsSummary() {
             <img
               className="summaryCardImg"
               src="/assets/images/vendors.svg"
+              alt="Vendors"
             ></img>
             <p className="adminSummaryTitle">Vendors</p>
           </Card>
@@ -56,6 +58,7 @@ function AnalyticsSummary() {
             <img
               className="summaryCardImg"
               src="/assets/images/buyers.svg"
+              alt="Buyers"
             ></img>
             <p className="adminSummaryTitle">Buyers</p>
           </Card>
@@ -63,6 +66,7 @@ function AnalyticsSummary() {
             <img
               className="summaryCardImg"
               src="/assets/images/orders.svg"
+              alt="Orders"
             ></img>
             <p className="adminSummaryTitle">Orders</p>
           </Card>

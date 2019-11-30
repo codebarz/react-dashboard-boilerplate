@@ -10,7 +10,7 @@ function SideNav(props) {
       <div className="admin-side-nav-header">
         <NavLogo></NavLogo>
         <i onClick={props.onclick}>
-          <img src="/assets/images/menu.svg" />
+          <img src="/assets/images/menu.svg" alt="Toggle Menu" />
         </i>
       </div>
       <div className="admin-side-nav-menu">

@@ -1,0 +1,25 @@
+.formFields {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+.formFields h3 {
+  text-align: center;
+  padding: 10px;
+}
+.formFields input {
+  padding: 10px;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  margin: 10px 0;
+  border-radius: 4px;
+  outline: none;
+  background: #fff;
+  width: 90%;
+}
+@media screen and (min-width: 780px) {
+  .loginCard {
+    width: 30% !important;
+  }
+}
