@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 
 //Components
 import SideNav from '../../components/SideNav';
 import NavHeader from '../../components/NavHeader';
 import PageHead from '../../components/PageHead';
 import AnalyticsSummary from '../../components/AnalyticsSummary';
+import { UserContext } from '../../Context';
 
 function Dashboard() {
   const [showToggle, setShowToggle] = useState(false);
+  const { user, setUser } = useContext(UserContext);
 
   const handleNavToggle = e => {
     e.preventDefault();

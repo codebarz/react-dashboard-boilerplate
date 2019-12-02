@@ -39,36 +39,40 @@ function AnalyticsSummary() {
           <Card styles={singleSummaryStyle}>
             <img
               className="summaryCardImg"
-              src="/assets/images/users.svg"
+              src="/assets/images/group.svg"
               alt="Users"
             ></img>
             <p className="adminSummaryTitle">Users</p>
+            <p className="adminSummaryCount">2k users in total</p>
           </Card>
           <Card styles={singleSummaryStyle}>
             <img
               className="summaryCardImg"
-              src="/assets/images/vendors.svg"
+              src="/assets/images/leaves.svg"
               alt="Vendors"
             ></img>
-            <p className="adminSummaryTitle">Vendors</p>
+            <p className="adminSummaryTitle">Affiliates</p>
+            <p className="adminSummaryCount">2M affiliates</p>
           </Card>
         </Card>
         <Card styles={userSummaryStyle}>
           <Card styles={singleSummaryStyle}>
             <img
               className="summaryCardImg"
-              src="/assets/images/buyers.svg"
+              src="/assets/images/greentrees.svg"
               alt="Buyers"
             ></img>
-            <p className="adminSummaryTitle">Buyers</p>
+            <p className="adminSummaryTitle">Trees</p>
+            <p className="adminSummaryCount">3.5M tress available</p>
           </Card>
           <Card styles={singleSummaryStyle}>
             <img
               className="summaryCardImg"
-              src="/assets/images/orders.svg"
+              src="/assets/images/shopping-bag.svg"
               alt="Orders"
             ></img>
             <p className="adminSummaryTitle">Orders</p>
+            <p className="adminSummaryCount">1k orders in total</p>
           </Card>
         </Card>
       </Card>
